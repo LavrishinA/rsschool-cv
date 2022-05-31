@@ -67,3 +67,19 @@ console.log(`${averageSumTips}`);
 ```
 
 ---
+
+# My main resources for education:
+
+- [**freecodecamp**](https://www.freecodecamp.org/lavrishin_a)
+- [**codewars**](https://www.codewars.com/users/LavrishinA)
+- [**learn.javascript**](https://learn.javascript.ru/)
+- [**udemy**](https://www.udemy.com/)
+  - [Build Responsive Real-World Websites with HTML and CSS](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/) **_in progress..._**
+  - [Advanced CSS and Sass: Flexbox, Grid, Animations and More!](https://www.udemy.com/course/advanced-css-and-sass/) **_in progress..._**
+  - [The Complete JavaScript Course 2022: From Zero to Expert!](https://www.udemy.com/course/the-complete-javascript-course/) **_in progress..._**
+
+---
+
+## My English: [EF SET Certificate](https://www.efset.org/cert/7mRYve)
+
+---
