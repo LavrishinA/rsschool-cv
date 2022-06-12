@@ -4,8 +4,48 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Portfolio</title>
   </head>
-  <body></body>
+  <body class="main-content">
+    <header class="section sec1 header active" id="home">1</header>
+    <main>
+      <section class="section sec2 about" id="about">2</section>
+      <section class="section sec3 portfolio" id="portfolio">3</section>
+      <section class="section sec4 blogs" id="blogs">4</section>
+      <section class="section sec5 contact" id="contact">5</section>
+    </main>
+    <aside class="controls">
+      <div class="control control-1 active-btn" data-id="home">
+        <ion-icon name="home"></ion-icon>
+      </div>
+      <div class="control control-2" data-id="about">
+        <ion-icon name="person"></ion-icon>
+      </div>
+      <div class="control control-3" data-id="portfolio">
+        <ion-icon name="briefcase"></ion-icon>
+      </div>
+      <div class="control control-4" data-id="blogs">
+        <ion-icon name="book"></ion-icon>
+      </div>
+      <div class="control control-5" data-id="contact">
+        <ion-icon name="mail"></ion-icon>
+      </div>
+    </aside>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="app.js"></script>
+  </body>
 </html>
