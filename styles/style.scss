@@ -371,6 +371,92 @@ section {
   }
 }
 
+//portfolios
+.port-text {
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.portfolios {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+  margin-top: 3rem;
+
+  .portfolio-item {
+    position: relative;
+    border-radius: 15px;
+
+    img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 15px;
+    }
+
+    .hover-item {
+      width: 100%;
+      height: 100%;
+      background-color: $color-secondary;
+      position: absolute;
+      left: 0;
+      top: 0;
+      border-radius: 15px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      opacity: 0;
+      transform: scale(0);
+      @include transition();
+
+      h3 {
+        font-size: 1.5rem;
+        color: $color-white;
+        margin-bottom: 1.5rem;
+        text-align: center;
+      }
+
+      .icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .icon {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background-color: $color-primary;
+          border-radius: 50%;
+          width: 50px;
+          height: 50px;
+          margin: 0 1rem;
+          cursor: pointer;
+          @include transition();
+
+          ion-icon {
+            font-size: 2rem;
+            color: $color-white;
+          }
+
+          &:hover {
+            background-color: $color-white;
+
+            ion-icon {
+              color: $color-primary;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.portfolio-item:hover .hover-item {
+  opacity: 1;
+  transform: scale(1);
+}
+
 //Components
 
 .btn-container {
