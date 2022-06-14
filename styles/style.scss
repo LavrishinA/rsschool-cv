@@ -23,6 +23,10 @@ $box-shadow-1: 0 3px 15px rgba(0, 0, 0, .3);
   transition: all 0.4s ease-in-out;
 }
 
+html {
+  font-size: 13px;
+}
+
 body {
   display: flex;
   background-color: $color-primary;
@@ -30,6 +34,7 @@ body {
   font-size: 1.1rem;
   color: $color-white;
   @include transition();
+  position: relative;
 }
 
 a {
@@ -43,6 +48,22 @@ header {
   height: 100vh;
   color: $color-white;
   overflow: hidden;
+}
+
+footer {
+  position: absolute;
+  left: 10%;
+  bottom: 0%;
+  transform: translateX(-50%);
+
+  img {
+    width: 5rem;
+    margin-right: 3rem;
+  }
+
+  ion-icon {
+    font-size: 2rem;
+  }
 }
 
 section {
